@@ -5,7 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: index.html
+  path: test.md
+  label: Test
+  match: "**/*"
+- type: document
+  path: index.md
   label: Frontpage
 upload_dir: uploads
 public_path: "/uploads"
