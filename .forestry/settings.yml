@@ -4,12 +4,11 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: test.md
-  label: Test
-- type: document
-  path: index.md
-  label: Frontpage
+- type: directory
+  path: dkfds-docs
+  label: Docs
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
